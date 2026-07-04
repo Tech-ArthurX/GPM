@@ -1,0 +1,8 @@
+﻿*.exe
+*.o
+*.obj
+*.gsc
+examples/*.exe.c
+examples/*.exe.ll
+examples/gs_net_runtime.ll
+examples/gs_llvm_runtime.ll

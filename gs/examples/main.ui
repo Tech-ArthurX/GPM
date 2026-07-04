@@ -1,0 +1,7 @@
+﻿<window title="GS Declarative UI" width="520" height="320">
+  <label text="Hello GDI/GDI+ ready UI" x="20" y="20" w="260" h="24" />
+  <button id="ok" text="OK" x="20" y="60" w="100" h="32" />
+  <edit id="name" text="input" x="140" y="60" w="180" h="28" />
+  <check id="flag" text="Enable" x="20" y="110" w="140" h="24" />
+  <group text="Group" x="20" y="150" w="260" h="80" />
+</window>

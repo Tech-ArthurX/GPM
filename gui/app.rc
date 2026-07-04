@@ -1,0 +1,4 @@
+#include "resource.h"
+
+IDI_APP_ICON ICON "assets\\glim.ico"
+IDR_FLUENT_ICON_FONT RCDATA "assets\\fonts\\Segoe Fluent Icons.ttf"

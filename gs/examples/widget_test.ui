@@ -1,0 +1,22 @@
+﻿<window title="GS Widget Test" width="640" height="420">
+  <label  text="Name:"        x="20"  y="20"  w="60"  h="22" />
+  <edit   id="name" text="hello" x="90"  y="18"  w="200" h="24" />
+  <label  text="Notes:"       x="20"  y="56"  w="60"  h="22" />
+  <edit   id="notes" text="" x="90"  y="54"  w="200" h="24" />
+
+  <group  text="Options"      x="20"  y="92"  w="270" h="120" />
+  <check  id="bold"   text="Bold"      x="40"  y="116" w="200" h="22" />
+  <check  id="italic" text="Italic"    x="40"  y="142" w="200" h="22" />
+  <check  id="under"  text="Underline" x="40"  y="168" w="200" h="22" />
+
+  <group  text="Actions"      x="320" y="20"  w="290" h="100" />
+  <button id="ok"     text="OK"        x="340" y="46"  w="100" h="32" />
+  <button id="cancel" text="Cancel"    x="450" y="46"  w="100" h="32" />
+  <button id="apply"  text="Apply"     x="340" y="82"  w="100" h="28" />
+  <button id="reset"  text="Reset"     x="450" y="82"  w="100" h="28" />
+
+  <group  text="Log"          x="320" y="130" w="290" h="220" />
+  <list   id="log"            x="340" y="156" w="250" h="180" />
+
+  <label  text="GS Win32 widget test - declarative UI" x="20" y="350" w="600" h="22" />
+</window>

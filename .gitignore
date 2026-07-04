@@ -1,0 +1,46 @@
+# Internal operator tooling
+/cmd-gpmctl/
+/cmd-pub/
+/scanner/
+
+# Secrets and signing material
+*.pem
+**/*private*.pem
+**/*PRIVATE*.pem
+**/*_private_key.pem
+**/*.env
+/server/gpm-server.env
+/server/server
+/server/server-*
+/server/servernew*
+/server/*.exe
+/server/*.exe~
+
+# Runtime/cache directories
+logs/
+downloads/
+**/logs/
+**/downloads/
+.gocache/
+.gomodcache/
+gocache/
+gomodcache/
+
+# Local release and temporary outputs
+*.log
+*.tmp
+*.part
+*.bak
+*.zip
+*.gpm
+__pycache__/
+*.pyc
+
+# Private local snapshots / conversation exports
+/Gpm.old-*/
+/session-*.md
+/git-status*.md
+/repo-status.md
+/handoff*.md
+/2026-*.txt
+/项目状态报告.md

@@ -1,0 +1,14 @@
+<window title="GS Modern UI" width="720" height="460">
+  <panel id="hero" text="" x="0" y="0" w="720" h="96" />
+  <label text="GPM Script UI" x="28" y="22" w="260" h="28" />
+  <label text="Modern LCL runtime preview" x="30" y="56" w="320" h="24" />
+  <button id="install" text="Install" x="560" y="28" w="120" h="36" />
+  <group text="Package" x="28" y="118" w="320" h="120" />
+  <label text="Name" x="52" y="150" w="80" h="24" />
+  <edit id="name" text="demo-package" x="130" y="146" w="180" h="30" />
+  <check id="flag" text="Enable logs" x="130" y="188" w="160" h="24" />
+  <group text="Progress" x="380" y="118" w="300" h="120" />
+  <progress id="prog" text="45" x="408" y="158" w="230" h="22" />
+  <label text="Ready to compile" x="408" y="190" w="220" h="24" />
+  <memo id="log" text="Compiler output will appear here" x="28" y="268" w="652" h="120" />
+</window>

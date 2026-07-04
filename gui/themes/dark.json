@@ -1,0 +1,8 @@
+{
+  "name": "Default Dark",
+  "dark": true,
+  "primary": "rgb(44, 94, 173)",
+  "primaryHover": "rgb(21, 145, 220)",
+  "info": "rgb(75, 184, 250)",
+  "primarySoft": "#274865"
+}

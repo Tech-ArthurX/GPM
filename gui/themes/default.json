@@ -1,0 +1,21 @@
+{
+  "name": "Default Blue",
+  "dark": false,
+  "primary": "rgb(44, 94, 173)",
+  "primaryHover": "rgb(21, 145, 220)",
+  "info": "rgb(75, 184, 250)",
+  "primarySoft": "rgb(196, 226, 245)",
+  "window": "#F5F8FB",
+  "surface": "#FFFFFF",
+  "surfaceAlt": "#EEF4F9",
+  "sidebar": "#F8F9FB",
+  "sidebarHover": "#EEF2F6",
+  "text": "#1C222C",
+  "textSoft": "#4A5667",
+  "textMuted": "#778496",
+  "border": "#D6E1EC",
+  "borderStrong": "#B2C4D8",
+  "progressTrack": "#E0E9F2",
+  "rowHover": "#F5F8FC",
+  "rowBorder": "#E5EDF5"
+}

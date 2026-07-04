@@ -1,0 +1,46 @@
+[Unit]
+Description=GPM Index Server (gpm package registry, listens on 127.0.0.1:8787)
+Documentation=https://github.com/SECTL/GPM
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/gpm-server
+EnvironmentFile=-/opt/gpm-server/gpm-server.env
+ExecStart=/opt/gpm-server/server
+Restart=on-failure
+RestartSec=3s
+
+# Defensive defaults; can be overridden via gpm-server.env.
+# The registry server only serves packages.json and should stay loopback-only
+# behind nginx.
+# nginx can proxy /gpm/ -> 127.0.0.1:8787.
+Environment=HOST=127.0.0.1
+Environment=PORT=8787
+Environment=PACKAGES_FILE=/opt/gpm-server/packages.json
+
+# Light sandboxing.
+# ProtectSystem=strict + ReadWritePaths so scan_packages can
+# rewrite packages.json without disabling the sandbox.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/gpm-server
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+
+# Memory cap: server is tiny (<50MB even with 1k clients in the
+# rate-limit map), but the host only has 4.5G free and 992Mi RAM
+# available — keep us honest.
+MemoryMax=200M
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=gpm-server
+
+[Install]
+WantedBy=multi-user.target

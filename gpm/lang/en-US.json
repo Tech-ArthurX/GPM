@@ -1,0 +1,18 @@
+{
+  "nav.market":"Market", "nav.installed":"Installed", "nav.settings":"Settings", "nav.about":"About",
+  "state.connected":"Connected", "state.waiting":"Waiting backend", "state.idle":"Idle",
+  "page.market":"Market", "page.market.subtitle":"{count} packages available", "page.installed":"Installed", "page.installed.subtitle":"{count} packages installed",
+  "page.settings":"Settings", "page.settings.subtitle":"DPI scale, language and theme", "page.about":"About", "page.about.subtitle":"GPM native Direct2D frontend",
+  "action.refresh":"Refresh", "action.updateIndex":"Update Index", "action.search":"Search", "action.batchInstall":"Batch Install", "action.batchUninstall":"Batch Uninstall",
+  "action.install":"Install", "action.reinstall":"Reinstall", "action.upgrade":"Upgrade", "action.uninstall":"Uninstall", "action.details":"Details", "action.collapse":"Collapse",
+  "label.available":"Available", "label.installed":"Installed", "label.updates":"Updates", "label.status":"Status", "label.quickActions":"Quick actions", "label.dpi":"DPI Scale", "label.theme":"Theme", "label.language":"Language",
+  "hint.search":"Search packages...", "hint.dpi":"The window is physically resized when DPI changes. Range: 100% to 300%.", "hint.theme":"Theme files are loaded from the themes folder.", "hint.language":"Language files are loaded from the lang folder.",
+  "text.backendReady":"Backend connected. Package data is ready to refresh or update.", "text.backendWaiting":"Waiting for backend on 127.0.0.1:8080.", "text.quickActions":"Use Market for batch install and Installed for batch uninstall. Logs are hidden in release builds.",
+  "empty.packages":"No packages to display", "empty.installed":"No installed packages", "empty.logs":"No server logs yet", "empty.warnings":"No warnings or errors",
+  "table.name":"Name", "table.version":"Version", "table.author":"Author", "table.status":"Status", "table.size":"Size", "table.action":"Action", "table.installDate":"Install Date",
+  "status.new":"New", "status.installed":"Installed", "status.upgrade":"Upgrade", "status.downgrade":"Downgrade",
+  "panel.warnings":"Warnings and errors", "panel.warnings.subtitle":"Recent backend warnings and failed operations stay here instead of popping over the UI.", "footer.counts":"{warn} warnings  {error} errors",
+  "about.title":"GPM", "about.body":"Native Direct2D frontend with self-drawn tables, multi-select operations, DPI switching, themes and language files.",
+  "splash.title":"GPM", "splash.body":"Windows package management, redrawn for a cleaner desktop flow.",
+  "toast.index":"Index", "toast.indexLoaded":"Package index loaded", "toast.indexUpdating":"Updating package index", "toast.operationComplete":"Operation complete", "toast.operationFailed":"Operation failed", "toast.backendDisconnected":"Disconnected; reconnecting...", "toast.backendStart":"Start gpm.exe --gui on localhost:8080", "toast.refreshRequested":"Requested package data", "toast.selection":"Selection", "toast.selectPackages":"Select packages in the first column first", "toast.selectInstalled":"Select installed packages first", "toast.packagesQueued":"{count} packages queued", "toast.showingAll":"Showing all packages"
+}

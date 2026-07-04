@@ -1,0 +1,5 @@
+﻿<window title="GS Native LCL Window" width="480" height="300">
+  <label text="This window is from UIDF (GS native LCL)" x="20" y="20" w="440" h="24" />
+  <button text="OK" x="20" y="60" w="100" h="32" />
+  <edit id="name" text="GS native" x="140" y="60" w="200" h="28" />
+</window>

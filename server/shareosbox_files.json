@@ -1,0 +1,70 @@
+{
+  "base": "https://share.osbox.top",
+  "path": "/CloudService/plugins",
+  "generated_at": "2026-06-23T01:16:50Z",
+  "total_entries": 6,
+  "total_files": 6,
+  "total_gpm_files": 5,
+  "entries": [
+    {
+      "name": "[7-Zip,24.09,ArthurX,1.55MB,pk_AA26D6C1AEDE].gpm",
+      "path": "/CloudService/plugins/[7-Zip,24.09,ArthurX,1.55MB,pk_AA26D6C1AEDE].gpm",
+      "is_dir": false,
+      "size": 1623934,
+      "modified": "2026-06-22T13:22:45Z",
+      "created": "2026-06-22T13:22:45Z",
+      "type": 0,
+      "download_url": "https://share.osbox.top/d/CloudService/plugins/%5B7-Zip%2C24.09%2CArthurX%2C1.55MB%2Cpk_AA26D6C1AEDE%5D.gpm"
+    },
+    {
+      "name": "[Dism++,1.7,ArthurX,1.57MB,pk_AA26D6C1AEDE].gpm",
+      "path": "/CloudService/plugins/[Dism++,1.7,ArthurX,1.57MB,pk_AA26D6C1AEDE].gpm",
+      "is_dir": false,
+      "size": 1641548,
+      "modified": "2026-06-23T01:16:50Z",
+      "created": "2026-06-23T01:16:50Z",
+      "type": 0,
+      "download_url": "https://share.osbox.top/d/CloudService/plugins/%5BDism%2B%2B%2C1.7%2CArthurX%2C1.57MB%2Cpk_AA26D6C1AEDE%5D.gpm"
+    },
+    {
+      "name": "[Dism++,1.0,ArthurX,1.56MB,pk_AA26D6C1AEDE].gpm",
+      "path": "/CloudService/plugins/[Dism++,1.0,ArthurX,1.56MB,pk_AA26D6C1AEDE].gpm",
+      "is_dir": false,
+      "size": 1639786,
+      "modified": "2026-06-23T01:16:50Z",
+      "created": "2026-06-23T01:16:50Z",
+      "type": 0,
+      "download_url": "https://share.osbox.top/d/CloudService/plugins/%5BDism%2B%2B%2C1.0%2CArthurX%2C1.56MB%2Cpk_AA26D6C1AEDE%5D.gpm"
+    },
+    {
+      "name": "[Everything,1.0,ArthurX,3.31MB,pk_AA26D6C1AEDE].gpm",
+      "path": "/CloudService/plugins/[Everything,1.0,ArthurX,3.31MB,pk_AA26D6C1AEDE].gpm",
+      "is_dir": false,
+      "size": 3469573,
+      "modified": "2026-06-23T01:16:50Z",
+      "created": "2026-06-23T01:16:50Z",
+      "type": 0,
+      "download_url": "https://share.osbox.top/d/CloudService/plugins/%5BEverything%2C1.0%2CArthurX%2C3.31MB%2Cpk_AA26D6C1AEDE%5D.gpm"
+    },
+    {
+      "name": "[Notepad++,8.9.6.4,ArthurX,7.70MB,pk_AA26D6C1AEDE].gpm",
+      "path": "/CloudService/plugins/[Notepad++,8.9.6.4,ArthurX,7.70MB,pk_AA26D6C1AEDE].gpm",
+      "is_dir": false,
+      "size": 8076518,
+      "modified": "2026-06-22T13:22:57Z",
+      "created": "2026-06-22T13:22:57Z",
+      "type": 0,
+      "download_url": "https://share.osbox.top/d/CloudService/plugins/%5BNotepad%2B%2B%2C8.9.6.4%2CArthurX%2C7.70MB%2Cpk_AA26D6C1AEDE%5D.gpm"
+    },
+    {
+      "name": "gpm-api-upload-test-20260531.json",
+      "path": "/CloudService/plugins/gpm-api-upload-test-20260531.json",
+      "is_dir": false,
+      "size": 274,
+      "modified": "2026-05-31T09:51:26Z",
+      "created": "2026-05-31T09:51:26Z",
+      "type": 4,
+      "download_url": "https://share.osbox.top/d/CloudService/plugins/gpm-api-upload-test-20260531.json"
+    }
+  ]
+}

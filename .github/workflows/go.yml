@@ -1,0 +1,42 @@
+name: Go
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test:
+    name: Build and test
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        module:
+          - gpm
+          - gs
+          - server
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: ${{ matrix.module }}/go.mod
+          cache-dependency-path: |
+            ${{ matrix.module }}/go.mod
+            ${{ matrix.module }}/go.sum
+
+      - name: Build
+        run: go build ./...
+        working-directory: ${{ matrix.module }}
+
+      - name: Test
+        run: go test ./...
+        working-directory: ${{ matrix.module }}

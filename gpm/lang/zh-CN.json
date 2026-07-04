@@ -1,0 +1,18 @@
+{
+  "nav.market":"市场", "nav.installed":"已安装", "nav.settings":"设置", "nav.about":"关于",
+  "state.connected":"已连接", "state.waiting":"等待后端", "state.idle":"空闲",
+  "page.market":"市场", "page.market.subtitle":"共 {count} 个可用包", "page.installed":"已安装", "page.installed.subtitle":"已安装 {count} 个包",
+  "page.settings":"设置", "page.settings.subtitle":"DPI、语言和主题", "page.about":"关于", "page.about.subtitle":"GPM 原生 Direct2D 前端",
+  "action.refresh":"刷新", "action.updateIndex":"更新索引", "action.search":"搜索", "action.batchInstall":"批量安装", "action.batchUninstall":"批量卸载",
+  "action.install":"安装", "action.reinstall":"重装", "action.upgrade":"升级", "action.uninstall":"卸载", "action.details":"详情", "action.collapse":"收起",
+  "label.available":"可用", "label.installed":"已安装", "label.updates":"更新", "label.status":"状态", "label.quickActions":"快捷操作", "label.dpi":"DPI 缩放", "label.theme":"主题", "label.language":"语言",
+  "hint.search":"搜索软件包...", "hint.dpi":"切换 DPI 时窗口会物理改变大小。范围：100% 到 300%。", "hint.theme":"主题文件从 themes 文件夹读取。", "hint.language":"语言文件从 lang 文件夹读取。",
+  "text.backendReady":"后端已连接，可以刷新或更新软件包数据。", "text.backendWaiting":"正在等待 127.0.0.1:8080 后端。", "text.quickActions":"在市场页批量安装，在已安装页批量卸载。Release 版本首页隐藏日志。",
+  "empty.packages":"没有可显示的软件包", "empty.installed":"没有已安装的软件包", "empty.logs":"暂无服务日志", "empty.warnings":"没有警告或错误",
+  "table.name":"名称", "table.version":"版本", "table.author":"作者", "table.status":"状态", "table.size":"大小", "table.action":"操作", "table.installDate":"安装日期",
+  "status.new":"新包", "status.installed":"已安装", "status.upgrade":"可升级", "status.downgrade":"可降级",
+  "panel.warnings":"警告和错误", "panel.warnings.subtitle":"后端警告和失败操作会留在这里，不再弹到界面上方。", "footer.counts":"{warn} 个警告  {error} 个错误",
+  "about.title":"GPM", "about.body":"原生 Direct2D 前端，支持自绘表格、多选操作、DPI 切换、主题和语言文件。",
+  "splash.title":"GPM", "splash.body":"Windows 包管理，重新绘制为更干净的桌面工作流。",
+  "toast.index":"索引", "toast.indexLoaded":"软件包索引已加载", "toast.indexUpdating":"正在更新软件包索引", "toast.operationComplete":"操作完成", "toast.operationFailed":"操作失败", "toast.backendDisconnected":"后端已断开，正在重连...", "toast.backendStart":"请在 localhost:8080 启动 gpm.exe --gui", "toast.refreshRequested":"已请求软件包数据", "toast.selection":"选择", "toast.selectPackages":"请先在第一列选择软件包", "toast.selectInstalled":"请先选择已安装的软件包", "toast.packagesQueued":"已加入 {count} 个软件包", "toast.showingAll":"显示全部软件包"
+}

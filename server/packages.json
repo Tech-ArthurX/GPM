@@ -1,0 +1,54 @@
+[
+  {
+    "name": "7-Zip",
+    "version": "24.09",
+    "author": "ArthurX",
+    "category": "Archive",
+    "description": "7-Zip is a file archiver with a high compression ratio",
+    "size": 1623934,
+    "sha256": "46d3d06a4b0e81aec2a8a0ef4fdba3c0cc94d91aadd2341131cb9025a8cfa0a2",
+    "filename": "[7-Zip,24.09,ArthurX,1.55MB,pk_AA26D6C1AEDE].gpm",
+    "url": "https://share.osbox.top/d/CloudService/plugins/%5B7-Zip%2C24.09%2CArthurX%2C1.55MB%2Cpk_AA26D6C1AEDE%5D.gpm"
+  },
+  {
+    "name": "Dism++",
+    "version": "1.7",
+    "author": "ArthurX",
+    "category": "System",
+    "size": 1641548,
+    "sha256": "4fcaf038ab72c12092ba7072199a3dc757201a2fd423583a5307296e927ebfbe",
+    "filename": "[Dism++,1.7,ArthurX,1.57MB,pk_AA26D6C1AEDE].gpm",
+    "url": "https://share.osbox.top/d/CloudService/plugins/%5BDism%2B%2B%2C1.7%2CArthurX%2C1.57MB%2Cpk_AA26D6C1AEDE%5D.gpm"
+  },
+  {
+    "name": "Dism++",
+    "version": "1.0",
+    "author": "ArthurX",
+    "category": "System",
+    "size": 1639786,
+    "sha256": "c1f7d52e16d6e07cdeedea806bbb09232b2868d129621ea7bc5233f6a99bcefc",
+    "filename": "[Dism++,1.0,ArthurX,1.56MB,pk_AA26D6C1AEDE].gpm",
+    "url": "https://share.osbox.top/d/CloudService/plugins/%5BDism%2B%2B%2C1.0%2CArthurX%2C1.56MB%2Cpk_AA26D6C1AEDE%5D.gpm"
+  },
+  {
+    "name": "Everything",
+    "version": "1.0",
+    "author": "ArthurX",
+    "category": "Search",
+    "size": 3469573,
+    "sha256": "c8bb280769ba9b988d596441648c6ef978dedb838d0b46f2c78306e481a1eb3e",
+    "filename": "[Everything,1.0,ArthurX,3.31MB,pk_AA26D6C1AEDE].gpm",
+    "url": "https://share.osbox.top/d/CloudService/plugins/%5BEverything%2C1.0%2CArthurX%2C3.31MB%2Cpk_AA26D6C1AEDE%5D.gpm"
+  },
+  {
+    "name": "Notepad++",
+    "version": "8.9.6.4",
+    "author": "ArthurX",
+    "category": "Editor",
+    "description": "Notepad++ is a free source code editor and Notepad replacement",
+    "size": 8076518,
+    "sha256": "b6050be21e61d225976a23feb658c21ee821ecf28a0d362f398b4ef3b500beea",
+    "filename": "[Notepad++,8.9.6.4,ArthurX,7.70MB,pk_AA26D6C1AEDE].gpm",
+    "url": "https://share.osbox.top/d/CloudService/plugins/%5BNotepad%2B%2B%2C8.9.6.4%2CArthurX%2C7.70MB%2Cpk_AA26D6C1AEDE%5D.gpm"
+  }
+]

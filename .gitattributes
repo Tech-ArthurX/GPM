@@ -1,0 +1,11 @@
+# Keep vendored/generated code out of GitHub language statistics.
+gs/runtime/net/curl/** linguist-vendored
+gs/runtime/thirdparty/** linguist-vendored
+gs/examples/** linguist-generated
+
+# Build outputs should not affect repository language statistics.
+*.exe linguist-generated
+*.o linguist-generated
+*.ppu linguist-generated
+*.ll linguist-generated
+*.opt.ll linguist-generated

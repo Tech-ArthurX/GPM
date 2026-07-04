@@ -1,0 +1,81 @@
+# Build artifacts
+*.exe
+*.exe~
+.build-cache/
+*.dll
+*.so
+*.dylib
+*.bin
+*.o
+*.a
+*.obj
+*.lib
+*.pdb
+*.exp
+*.ilk
+*.idb
+*.bsc
+
+# Shipped GUI client (built from proj/gpm-fluent/, mirrored here so
+# `gpm.exe --gui` can spawn it without depending on a separate
+# release artifact)
+!gpm-fluent-new.exe
+
+# Go
+/vendor/
+/bin/
+*.test
+*.out
+coverage.*
+*.cover
+
+# Test / scratch
+_pf_test/
+/downloads/
+Scripts/
+/scripts/
+
+# Runtime state
+installed_packages.json
+packages.json
+loader.ini
+gpm.ini
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Third-party / vendor blobs
+Tcl9/
+tcl9.0.2/
+UA/
+!UA/UA_*.pem
+keys/
+
+# Sensitive private material
+*.pem
+!res/**/*.pem
+
+# Build / release scripts (local only)
+build.ps1
+build.bat
+build.sh
+
+# Conversations / notes
+conversation-*.txt
+handoff.md
+notes.md
+
+# Go workspace
+go.work
+go.work.sum
+
+# Editor
+.vscode/
+.idea/
+*.iml

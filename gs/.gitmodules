@@ -1,0 +1,3 @@
+[submodule "runtime/net/curl"]
+	path = runtime/net/curl
+	url = https://github.com/curl/curl.git

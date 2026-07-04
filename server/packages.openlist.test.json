@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Dism++",
+    "version": "1.7",
+    "author": "ArthurX",
+    "category": "System",
+    "description": "",
+    "size": 1641548,
+    "sha256": "4fcaf038ab72c12092ba7072199a3dc757201a2fd423583a5307296e927ebfbe",
+    "filename": "[Dism++,1.7,ArthurX,1.57MB,pk_AA26D6C1AEDE].gpm",
+    "url": "https://share.osbox.top/d/CloudService/plugins/%5BDism%2B%2B%2C1.7%2CArthurX%2C1.57MB%2Cpk_AA26D6C1AEDE%5D.gpm"
+  },
+  {
+    "name": "Dism++",
+    "version": "1.0",
+    "author": "ArthurX",
+    "category": "System",
+    "description": "",
+    "size": 1639786,
+    "sha256": "c1f7d52e16d6e07cdeedea806bbb09232b2868d129621ea7bc5233f6a99bcefc",
+    "filename": "[Dism++,1.0,ArthurX,1.56MB,pk_AA26D6C1AEDE].gpm",
+    "url": "https://share.osbox.top/d/CloudService/plugins/%5BDism%2B%2B%2C1.0%2CArthurX%2C1.56MB%2Cpk_AA26D6C1AEDE%5D.gpm"
+  },
+  {
+    "name": "Everything",
+    "version": "1.0",
+    "author": "ArthurX",
+    "category": "Search",
+    "description": "",
+    "size": 3469573,
+    "sha256": "c8bb280769ba9b988d596441648c6ef978dedb838d0b46f2c78306e481a1eb3e",
+    "filename": "[Everything,1.0,ArthurX,3.31MB,pk_AA26D6C1AEDE].gpm",
+    "url": "https://share.osbox.top/d/CloudService/plugins/%5BEverything%2C1.0%2CArthurX%2C3.31MB%2Cpk_AA26D6C1AEDE%5D.gpm"
+  }
+]

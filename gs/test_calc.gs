@@ -1,0 +1,1 @@
+CALC 1 2 + PRINT

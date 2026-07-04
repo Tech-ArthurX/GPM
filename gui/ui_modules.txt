@@ -1,0 +1,37 @@
+GPM GUI module layout
+
+Application layer:
+- main.cpp: GPM pages, state, WebSocket client, package list rendering and user actions.
+- assets/: frontend images and static resources.
+- lang/: i18n files.
+- themes/: theme JSON files.
+
+D2D UI runtime:
+- ui_d2d/core/gpm_ui.h: public UI runtime header.
+- ui_d2d/core/gpm_ui_pch.h: shared Win32/D2D/DWrite includes.
+- ui_d2d/core/GpmApp.cpp: process-level UI helpers.
+- ui_d2d/core/GpmTheme.cpp: theme color helpers.
+- ui_d2d/core/GpmUIBase.cpp: UIElement base, layout and invalidation.
+- ui_d2d/core/GpmWindow.cpp: layered D2D window, message routing and title bar.
+
+Controls:
+- ui_d2d/controls/GpmButton.cpp
+- ui_d2d/controls/GpmCheckBox.cpp
+- ui_d2d/controls/GpmComboBox.cpp
+- ui_d2d/controls/GpmDataGrid.cpp
+- ui_d2d/controls/GpmEdit.cpp
+- ui_d2d/controls/GpmGraphButton.cpp
+- ui_d2d/controls/GpmImageButton.cpp
+- ui_d2d/controls/GpmLabel.cpp
+- ui_d2d/controls/GpmListBox.cpp
+- ui_d2d/controls/GpmMessageBox.cpp
+- ui_d2d/controls/GpmProgressBar.cpp
+- ui_d2d/controls/GpmRadioButton.cpp
+- ui_d2d/controls/GpmSlider.cpp
+- ui_d2d/controls/GpmSuperListBox.cpp
+- ui_d2d/controls/GpmTabControl.cpp
+
+Build:
+- build_mingw.bat compiles each core/control module separately and links them into gpm-fluent-new.exe.
+- Set MINGW_BIN when g++/windres are not already on PATH.
+- Set GPMUI only if you want to point the app to another compatible UI runtime.
